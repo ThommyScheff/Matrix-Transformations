@@ -1,4 +1,19 @@
+#!/usr/bin/env python
+"""
+Many different matrix transformations used in computer graphics, such as a rotation matrix or a viewport matrix.
+"""
+__author__ = "Thommy Scheffner"
+__copyright__ = "Copyright 2019, Goethe University for DocStrings and for 'do not modify this method' methods"
+__credits__ = ["Thommy Scheffner"]
+
+__license__ = "GPL"
+__version__ = "3.7.3"
+__maintainer__ = "Thommy Scheffner"
+__email__ = "itzthommy@gmx.de"
+__status__ = "Completed"
+
 import math
+
 class Vec4():
     def __init__(self, x = 0, y = 0, z = 0, w = 0):
         """Constructor for Vec4
